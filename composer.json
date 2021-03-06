@@ -1,0 +1,28 @@
+{
+  "name": "larva/aliyun-mns",
+  "description": "aliyun mns php sdk",
+  "keywords": [
+    "aliyun",
+    "mns"
+  ],
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "aliyun",
+      "email": "aliyun@aliyun.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2 || ^8.0",
+    "ext-xmlreader": "*",
+    "ext-xmlwriter": "*",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^6.5 || ^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "AliyunMNS\\": "src"
+    }
+  }
+}
